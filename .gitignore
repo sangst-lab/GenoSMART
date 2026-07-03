@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Large data and generated model artifacts
+data/raw/
+features/
+features_*/
+saved_models*/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Generated outputs
+results/
+shap_results/
+*.xlsx
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

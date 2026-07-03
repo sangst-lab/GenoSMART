@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+  <defs>
+    <style>
+      .box { fill: #f8fbff; stroke: #1f4e79; stroke-width: 2; rx: 12; }
+      .branch { fill: #f5fff8; stroke: #2f6f4e; stroke-width: 2; rx: 12; }
+      .head { fill: #fff8ed; stroke: #9a5b12; stroke-width: 2; rx: 12; }
+      .text { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #111827; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 17px; fill: #374151; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 28px; font-weight: 700; fill: #111827; }
+      .arrow { stroke: #374151; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <text x="550" y="45" text-anchor="middle" class="title">GenoSMART model overview</text>
+
+  <rect x="60" y="105" width="230" height="85" class="box"/>
+  <text x="175" y="140" text-anchor="middle" class="text">XGB-ranked genes</text>
+  <text x="175" y="168" text-anchor="middle" class="small">top gene tokens</text>
+
+  <rect x="60" y="305" width="230" height="85" class="box"/>
+  <text x="175" y="340" text-anchor="middle" class="text">Case features</text>
+  <text x="175" y="368" text-anchor="middle" class="small">matched gene tokens</text>
+
+  <rect x="370" y="95" width="250" height="105" class="branch"/>
+  <text x="495" y="132" text-anchor="middle" class="text">Gene branch</text>
+  <text x="495" y="162" text-anchor="middle" class="small">token projection + attention</text>
+
+  <rect x="370" y="295" width="250" height="105" class="branch"/>
+  <text x="495" y="332" text-anchor="middle" class="text">Case branch</text>
+  <text x="495" y="362" text-anchor="middle" class="small">token projection + attention</text>
+
+  <rect x="710" y="190" width="250" height="120" class="head"/>
+  <text x="835" y="228" text-anchor="middle" class="text">Latent aggregation</text>
+  <text x="835" y="258" text-anchor="middle" class="small">cross-branch fusion</text>
+  <text x="835" y="286" text-anchor="middle" class="small">classification head</text>
+
+  <rect x="725" y="380" width="220" height="70" class="box"/>
+  <text x="835" y="423" text-anchor="middle" class="text">Feature importance</text>
+
+  <path d="M290 147 L370 147" class="arrow"/>
+  <path d="M290 347 L370 347" class="arrow"/>
+  <path d="M620 147 C670 147 670 215 710 225" class="arrow"/>
+  <path d="M620 347 C670 347 670 285 710 275" class="arrow"/>
+  <path d="M835 310 L835 380" class="arrow"/>
+
+  <text x="550" y="495" text-anchor="middle" class="small">Code release for HCC GenoSMART modeling and VASN-centered analysis</text>
+</svg>

@@ -1,0 +1,2 @@
+gene_position,gene_name,gene_id,consensus_rank,mean_rank_consensus_methods,embedding_grad_x_input_score,embedding_grad_x_input_rank,weight_grad_x_input_score,weight_grad_x_input_rank,integrated_grad_x_input_score,integrated_grad_x_input_rank,mean_expression_weight_score,mean_expression_weight_rank
+568,VASN,ENSG00000168140.5,146,201.0,0.0003331857903200823,188,0.05854259492670004,144,0.0251377402652735,283,0.002442225930280983,189
