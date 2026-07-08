@@ -23,11 +23,15 @@ GenoSMART uses two feature branches to integrate ranked gene-level information a
 
 ![GenoSMART model overview](docs/model_overview.svg)
 
-![GenoSMART overall workflow](docs/fig1a_overview.svg)
+<p align="center">
+  <img src="docs/fig1a_overview_large.png" alt="GenoSMART overall workflow" width="100%">
+</p>
 
 An example HCC GO-branch embedding visualization is also included:
 
-![HCC GO-branch embedding](docs/hcc_go_8branches_embedding_plot.png)
+<p align="center">
+  <img src="docs/hcc_go_8branches_embedding_plot.png" alt="HCC GO-branch embedding" width="680">
+</p>
 
 ## Installation
 
